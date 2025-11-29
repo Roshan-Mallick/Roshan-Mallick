@@ -13,8 +13,11 @@
 <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 10px;">
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" />
+   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" />
+   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" />
+    &nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="35" />
   
 
@@ -26,14 +29,14 @@
 
 <a href="https://www.linkedin.com/in/roshan-mallick-2b816a2b8/" target="_blank" rel="noopener noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="height: 35px; width: 35px; margin-right: 20px;">
-</a>
+</a> &nbsp;
 
 <a href="mailto:roshanmallick2025@gmail.com" target="_blank" rel="noopener noreferrer">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" style="height: 35px; width: 35px; margin-right: 20px;">
-</a>
+</a> &nbsp;
 
 <a href="https://x.com/coderush60" target="_blank" rel="noopener noreferrer">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X (Twitter)" style="height: 35px; width: 35px;">
-</a>
+</a>  &nbsp;
 
 <h2># Happy coding</h2>
