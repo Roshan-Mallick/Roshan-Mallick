@@ -1,4 +1,13 @@
 <h1>Hello coder!👋 I am Roshan Mallick</h1>
+
+<!-- 🎉 GIF Added Here -->
+<p>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWY4bmpxZWJ5Y2FiZXp1ZGQ1Y3MxemZvcmplNTNxaXcxZ25pa3A2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XJkYWV3GQeIaA0yiqc/giphy.gif"
+       alt="welcome gif"
+       width="350"
+       style="border-radius: 10px;" />
+</p>
+
 <b>The more you code , The more you know</b>
 <hr>
 
@@ -23,7 +32,6 @@
     &nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="35" />
   
-
 </div>
 
 <hr>
