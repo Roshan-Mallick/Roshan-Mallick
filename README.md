@@ -20,7 +20,7 @@
   </li>
 </ul>
 
-<h2>Tech Stack</h2>
+<h2>🛠 Tech Stack & Skills</h2>
 
 <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 10px;">
 
@@ -29,8 +29,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" />
    &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" />
-    &nbsp;
+  &nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="35" />
+   &nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="35" />
   
 </div>
 
