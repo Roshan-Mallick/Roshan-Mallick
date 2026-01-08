@@ -33,6 +33,8 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="35" />
    &nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="35" />
+   &nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" width="35" />
   
 </div>
 
