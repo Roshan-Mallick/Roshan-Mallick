@@ -8,7 +8,7 @@
        style="border-radius: 10px;" />
 </p>
 
-<b>The more you code , The more you know</b>
+<b>Building systems, learning deeply, and solving real problems through code.</b>
 <hr>
 
 <h2>About me 🧑🏽‍🎓</h2>
