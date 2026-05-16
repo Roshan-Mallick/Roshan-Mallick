@@ -15,6 +15,7 @@
 <ul>
   <li>I am a B.Tech CSE student at Techno India University, West Bengal.</li>
   <li>I am also looking forward to GSoC 2027.</li>
+  <li>🌐 <a href="https://roshan-mallick.github.io/" target="_blank">roshan-mallick.github.io</a> — Personal Portfolio</li>
   <li><a href="mailto:roshanmallick2025@gmail.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> roshanmallick2025@gmail.com
   </a>
   </li>
