@@ -41,4 +41,17 @@ discuss security research, or just want to connect — I'm reachable.</p>
 or directly at `roshanmallick2025@gmail.com`
 </div>
 
-<h2># Happy coding</h2>
+<hr>
+
+<h2>📈 GitHub Activity</h2>
+
+<div align="center">
+
+<img
+  src="https://github-readme-streak-stats.herokuapp.com?user=Roshan-Mallick&theme=tokyonight&hide_border=true"
+  alt="GitHub Streak"
+/>
+
+</div>
+
+<h2>💻 Happy coding</h2>
