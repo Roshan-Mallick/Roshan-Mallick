@@ -41,18 +41,25 @@
 
 <hr>
 
-<h2 style="margin-bottom: 10px; border: none; padding-bottom: 0;">Reach out to me</h2>
+<h2>Reach out to me</h2>
 
-<a href="https://www.linkedin.com/in/roshan-mallick-2b816a2b8/" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="height: 35px; width: 35px; margin-right: 20px;">
-</a> &nbsp;
+<div align="center">
+<br/>
 
-<a href="mailto:roshanmallick2025@gmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" style="height: 35px; width: 35px; margin-right: 20px;">
-</a> &nbsp;
+<p>If you're working on something interesting, want to<br/>
+discuss security research, or just want to connect — I'm reachable.</p>
 
-<a href="https://x.com/coderush60" target="_blank" rel="noopener noreferrer">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X (Twitter)" style="height: 35px; width: 35px;">
-</a>  &nbsp;
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-Roshan--Mallick-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22&color=161b22)](https://github.com/Roshan-Mallick)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22&color=161b22)](https://www.linkedin.com/in/roshan-mallick-2b816a2b8/)
+[![X](https://img.shields.io/badge/X_/_Twitter-@coderush60-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22&color=161b22)](https://x.com/coderush60)
+[![Email](https://img.shields.io/badge/Email-Mail_Me-0d1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22&color=161b22)](mailto:roshanmallick2025@gmail.com)
+
+<br/><br/>
+
+or directly at `roshanmallick2025@gmail.com`
+
+</div>
 
 <h2># Happy coding</h2>
