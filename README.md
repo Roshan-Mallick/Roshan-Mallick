@@ -38,8 +38,8 @@ security research, or just want to connect — I'm reachable.
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22&color=161b22"/>
 </a>
 
-<a href="https://x.com/coderush60">
-  <img src="https://img.shields.io/badge/X_/_Twitter-@coderush60-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22&color=161b22"/>
+<a href="https://x.com/_eth0x1">
+  <img src="https://img.shields.io/badge/X_/_Twitter-_eth0x1-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22&color=161b22"/>
 </a>
 
 <a href="mailto:roshanmallick2025@gmail.com">
