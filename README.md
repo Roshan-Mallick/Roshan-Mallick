@@ -25,33 +25,39 @@
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 <hr>
+
 <h2>Reach out to me</h2>
-<div align="center">
-<br/>
-<p>If you're working on something interesting, want to<br/>
-discuss security research, or just want to connect — I'm reachable.</p>
-<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Roshan--Mallick-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22&color=161b22)](https://github.com/Roshan-Mallick)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22&color=161b22)](https://www.linkedin.com/in/roshan-mallick-2b816a2b8/)
-[![X](https://img.shields.io/badge/X_/_Twitter-@coderush60-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22&color=161b22)](https://x.com/coderush60)
-[![Email](https://img.shields.io/badge/Email-Mail_Me-0d1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22&color=161b22)](mailto:roshanmallick2025@gmail.com)
+<p>
+If you're working on something interesting, want to discuss
+security research, or just want to connect — I'm reachable.
+</p>
 
-<br/><br/>
-or directly at `roshanmallick2025@gmail.com`
-</div>
+<p>
+<a href="https://www.linkedin.com/in/roshan-mallick-2b816a2b8/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22&color=161b22"/>
+</a>
+
+<a href="https://x.com/coderush60">
+  <img src="https://img.shields.io/badge/X_/_Twitter-@coderush60-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22&color=161b22"/>
+</a>
+
+<a href="mailto:roshanmallick2025@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Mail_Me-0d1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22&color=161b22"/>
+</a>
+</p>
+
+<p>
+or directly at <code>roshanmallick2025@gmail.com</code>
+</p>
 
 <hr>
 
 <h2>📈 GitHub Activity</h2>
 
-<div align="center">
-
 <img
-  src="https://github-readme-streak-stats.herokuapp.com?user=Roshan-Mallick&theme=tokyonight&hide_border=true"
+  src="https://streak-stats.demolab.com?user=Roshan-Mallick&theme=tokyonight&hide_border=true"
   alt="GitHub Streak"
 />
 
-</div>
-
-<h2>💻 Happy coding</h2>
+<h2>💻 Happy coding!</h2>
