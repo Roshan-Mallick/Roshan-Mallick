@@ -56,7 +56,7 @@ or directly at <code>roshanmallick2025@gmail.com</code>
 <h2>📈 GitHub Activity</h2>
 
 <img
-  src="https://streak-stats.demolab.com?user=Roshan-Mallick&theme=tokyonight&hide_border=true"
+  src="https://github-readme-streak-stats-eight.vercel.app?user=Roshan-Mallick&theme=tokyonight&hide_border=true"
   alt="GitHub Streak"
 />
 
