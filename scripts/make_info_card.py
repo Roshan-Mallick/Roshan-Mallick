@@ -40,7 +40,7 @@ ROWS = [
     ("gap",),
     ("sec", "Stack"),
     ("kv", "Languages", "C, JavaScript, Python, Bash"),
-    ("kv", "Web", "HTML5, CSS3, React"),
+    ("kv", "Web", "HTML5, CSS3"),
     ("kv", "Tools", "Git, Linux, Docker, Bash"),
     ("kv", "Interest", "Open Source · Security"),
     ("gap",),
