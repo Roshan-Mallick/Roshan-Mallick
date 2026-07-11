@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Roshan Mallick | Programmer & Open Source Learner</title>
+
+<meta name="description" content="Portfolio of Roshan Mallick featuring C programming, Linux systems programming, cybersecurity research, backend engineering, and CLI tools.">
+
+<meta name="keywords" content="Roshan Mallick, C programming, Linux, cybersecurity, systems programming, backend developer, CLI tools, portfolio">
+
+<meta name="author" content="Roshan Mallick">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Roshan Mallick | Systems Programmer">
+<meta property="og:description" content="C programming, Linux systems programming, cybersecurity research, backend engineering, and CLI tools.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://roshan-mallick.github.io/">
+<meta property="og:image" content="https://roshan-mallick.github.io/assets/og-card.svg">
+<meta property="og:site_name" content="Roshan Mallick">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Roshan Mallick">
+<meta name="twitter:description" content="Systems programmer, Linux enthusiast, and security researcher.">
+<meta name="twitter:image" content="https://roshan-mallick.github.io/assets/og-card.svg">
+<meta name="twitter:site" content="@_eth0x1">
+<meta name="theme-color" content="#080808">
+
+<link rel="canonical" href="https://roshan-mallick.github.io/">
+<link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/png" href="./assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&amp;family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&amp;family=Syne:wght@400;500;600;700;800&amp;family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://roshan-mallick.github.io/#website",
+      "url": "https://roshan-mallick.github.io/",
+      "name": "Roshan Mallick",
+      "description": "Portfolio of Roshan Mallick — C programming, Linux systems programming, cybersecurity research, backend engineering, and CLI tools.",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://roshan-mallick.github.io/#person",
+      "name": "Roshan Mallick",
+      "url": "https://roshan-mallick.github.io/",
+      "image": "https://roshan-mallick.github.io/assets/roshan-mallick-profile.png",
+      "description": "BTech Computer Science student at Techno India University, passionate about C programming, Linux systems, cybersecurity research, and open source. Building CLI tools and web projects.",
+      "jobTitle": ["Programmer", "Computer Science Student"],
+      "knowsAbout": ["C programming", "Linux", "Systems Programming", "JavaScript", "Cybersecurity", "CLI Tools", "Web Development", "Data Structures", "Algorithms"],
+      "knowsLanguage": ["C", "JavaScript", "HTML", "CSS", "Bash"],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Techno India University"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kolkata",
+        "addressRegion": "West Bengal",
+        "addressCountry": "India"
+      },
+      "award": "Cloud Study Jams 2025 — Top 25 Performer",
+      "sameAs": [
+        "https://github.com/Roshan-Mallick",
+        "https://linkedin.com/in/roshan-mallick-2b816a2b8",
+        "https://x.com/_eth0x1",
+        "https://medium.com/@roshanmallick2025"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://roshan-mallick.github.io/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://roshan-mallick.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Resume",
+          "item": "https://roshan-mallick.github.io/Resume/"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://roshan-mallick.github.io/#project-quickcheck",
+      "name": "QuickCheck",
+      "description": "A full-stack SaaS platform that helps engineering teams manage deployments, incident response workflows, and operational runbooks through persistent, trackable checklists.",
+      "url": "https://quickcheck-web.vercel.app/",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "author": {
+        "@id": "https://roshan-mallick.github.io/#person"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://roshan-mallick.github.io/#project-rentdb",
+      "name": "RentDB",
+      "description": "A CLI rent management system built in C. Manages payment entries, exports to CSV, and auto-syncs with Google Drive on Linux.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Linux",
+      "author": {
+        "@id": "https://roshan-mallick.github.io/#person"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://roshan-mallick.github.io/#project-hashvault",
+      "name": "HashVault",
+      "description": "A password hashing tool in C implementing a 256-bit hex digest with bitwise XOR, ASCII conversion, and prime seeding. No external dependencies.",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Linux",
+      "author": {
+        "@id": "https://roshan-mallick.github.io/#person"
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+
+   <!-- SEO: hidden h1 for Google --> <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;opacity:0;">   Roshan Mallick — Programmer & Open Source Learner </h1>
+
+<!-- ═══ LEFT SIDEBAR ═══ -->
+<div id="left-sidebar">
+  <div id="scroll-progress-track">
+    <div id="scroll-progress-bar"></div>
+  </div>
+  <nav id="section-list">
+    <a href="#hero"            class="sec-link" data-section="hero">hero</a>
+    <a href="#about"           class="sec-link" data-section="about">about</a>
+    <a href="#projects"        class="sec-link" data-section="projects">projects</a>
+    <a href="#github-activity" class="sec-link" data-section="github-activity">activity</a>
+    <a href="#skills"          class="sec-link" data-section="skills">skills</a>
+    <a href="#journey"         class="sec-link" data-section="journey">journey</a>
+    <a href="#contact"         class="sec-link" data-section="contact">contact</a>
+  </nav>
+</div>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">rm<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#github-activity">activity</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#journey">journey</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <a href="Resume/index.html" target="_blank" class="nav-cta">RESUME ↗</a>
+</nav>
+
+<main>
+
+<!-- ═══ HERO — SPLIT LAYOUT ═══ -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+
+    <!-- Left: Text -->
+    <div class="hero-left">
+      <div class="hero-badge"><span>Available for opportunities</span></div>
+      <h1 class="hero-name">Roshan<br><span class="dim">Mallick</span></h1>
+      <p class="hero-role">CSE Student &nbsp;·&nbsp; Developer &nbsp;·&nbsp; Open Source Learner </p>
+      <p class="hero-desc">
+        CSE student at <strong>Techno India University</strong>, passionate about technology,
+        problem-solving, and continuous learning. Always curious, always building,
+        and constantly exploring new things.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7"/>
+            <rect x="14" y="3" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+            <rect x="14" y="14" width="7" height="7"/>
+          </svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn-ghost">Get in touch →</a>
+      </div>
+    </div>
+
+    <!-- Right: Terminal card -->
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="terminal-dot red"></span>
+        <span class="terminal-dot yellow"></span>
+        <span class="terminal-dot green"></span>
+        <span class="terminal-filename">portfolio.c</span>
+      </div>
+      <div class="terminal-body" id="terminal-output"></div>
+    </div>
+
+  </div>
+  <div class="hero-scroll">scroll</div>
+</section>
+
+<!-- ═══ ABOUT — SPLIT LAYOUT ═══ -->
+<section id="about">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">01 — about</div>
+      <h2 class="section-title">whoami</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="about-split fade-in">
+
+      <!-- Left: bio text -->
+      <div class="about-text">
+        <p>I'm a first-year CS student at Techno India University, Kolkata. I got into programming
+          through curiosity and stayed because of the problem-solving. These days I split my time
+          between <strong>building CLI tools and web projects</strong>, learning systems internals,
+          and going deeper into how computers actually work under the hood.</p>
+        <p>My current focus is on writing <strong>clean, useful software</strong> — tools that solve
+          real problems, not just tutorial projects. I'm learning in public, documenting what I build
+          and break, and pushing myself to go beyond what's taught in class.</p>
+        <p>When I'm not at a terminal, I'm reading tech blogs, working through DSA problems in C,
+          or building something to scratch an itch I actually have. Based in Kolkata, West Bengal —
+          learning out loud, one commit at a time.</p>
+        <blockquote class="pull-quote">Learning out loud, one commit at a time.</blockquote>
+        <div class="about-interests">
+          <span class="tag">open source</span>
+          <span class="tag">public learning</span>
+          <span class="tag"><a href="https://en.wikipedia.org/wiki/Linux" target="_blank" rel="external" class="tag-link">linux</a></span>
+          <span class="tag">CLI tools</span>
+          <span class="tag">GSoC</span>
+          <span class="tag"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="external" class="tag-link">C programming</a></span>
+        </div>
+      </div>
+
+      <!-- Right: stat cards -->
+      <div class="about-sidebar">
+        <div class="about-stat">
+          <div class="num">B.Tech</div>
+          <div class="label">CSE · Techno India University</div>
+        </div>
+        <div class="about-stat">
+          <div class="num">KOL</div>
+          <div class="label">Kolkata, West Bengal, India</div>
+        </div>
+        <div class="about-stat">
+          <div class="num">↗</div>
+          <div class="label">Building & learning in public</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJECTS — HORIZONTAL CARDS ═══ -->
+<section id="projects">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">02 — projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="projects-list fade-in">
+
+      <div class="project-card" onclick="if(!event.target.closest('.project-link'))window.open('https://quickcheck-web.vercel.app/','_blank')" onkeydown="if(event.key==='Enter')window.open('https://quickcheck-web.vercel.app/','_blank')" role="link" tabindex="0">
+        <div class="project-left">
+          <span class="project-number">001</span>
+          <div class="project-status live">live</div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">QuickCheck — Persistent Checklists for Engineering Teams</h3>
+          <p class="project-desc">A full-stack SaaS platform that helps engineering teams manage deployments, incident response workflows, and operational runbooks through persistent, trackable checklists.</p>
+          <div class="project-highlights">
+            <span class="highlight">Auth & user mgmt</span>
+            <span class="highlight">Team collaboration</span>
+            <span class="highlight">Real-time sync</span>
+            <span class="highlight">Markdown support</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Supabase</span>
+            <span class="project-tag">GitHub</span>
+            <span class="project-tag">Brevo</span>
+            <span class="project-tag">Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://quickcheck-web.vercel.app/" target="_blank" class="project-link">Live Demo ↗</a>
+            <a href="https://github.com/Roshan-Mallick/quickcheck-web" target="_blank" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </div>
+
+      <a class="project-card" href="https://github.com/Roshan-Mallick/RentDB" target="_blank">
+        <div class="project-left">
+          <span class="project-number">002</span>
+          <div class="project-status live">live</div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">RentDB — CLI Rent Management System</h3>
+          <p class="project-desc">A CLI tool built in C to manage rent payment entries and export them into a properly organized CSV. Came out of a real frustration — doing the same Excel work every month was slow. Added Google Drive auto-sync on Linux so data never gets lost.</p>
+          <div class="project-highlights">
+            <span class="highlight">CRUD operations</span>
+            <span class="highlight">CSV export</span>
+            <span class="highlight">Google Drive sync</span>
+            <span class="highlight">Makefile build</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">C</span>
+            <span class="project-tag">Linux</span>
+            <span class="project-tag">CLI</span>
+            <span class="project-tag">File I/O</span>
+            <span class="project-tag">Makefile</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Roshan-Mallick/hashvault" target="_blank">
+           <div class="project-left">
+              <span class="project-number">003</span>
+            <div class="project-status live">live</div>
+          </div>
+                  <div class="project-body">
+               <h3 class="project-title">HashVault — Password Hashing in C</h3>
+           <p class="project-desc">A beginner-friendly password hashing project in C. Implements a 256-bit hex digest using 4 independent 64-bit states with bitwise XOR, ASCII conversion, and prime seeding. Includes Hash Explorer, Avalanche Tester, Register and Login modes — no external libraries.</p>
+       <div class="project-highlights">
+      <span class="highlight">256-bit hash</span>
+      <span class="highlight">Avalanche effect</span>
+      <span class="highlight">Auth logic</span>
+      <span class="highlight">Zero dependencies</span>
+    </div>
+    <div class="project-tags">
+      <span class="project-tag">C</span>
+      <span class="project-tag">Linux</span>
+      <span class="project-tag">CLI</span>
+      <span class="project-tag">Bitwise ops</span>
+      <span class="project-tag">Security</span>
+    </div>
+  </div>
+  <span class="project-arrow">↗</span>
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GITHUB ACTIVITY ═══ -->
+<section id="github-activity">
+  <div class="container">
+    <div class="fade-in github-head">
+      <div>
+        <div class="section-label">03 — activity</div>
+        <h2 class="section-title">GitHub Contributions</h2>
+      </div>
+      <a href="https://github.com/Roshan-Mallick" target="_blank" class="github-profile-link">
+        @Roshan-Mallick ↗
+      </a>
+    </div>
+    <div class="github-stats-wrapper fade-in" id="github-stats"></div>
+    <div class="github-graph fade-in" id="github-heatmap"></div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS — 3-CARD LAYOUT ═══ -->
+<section id="skills">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">04 — skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="skills-grid fade-in">
+
+      <div class="skill-card">
+        <h3 class="skill-card-title">Languages</h3>
+        <div class="skill-card-items">
+          <div class="skill-item">
+            <img src="assets/icons/c.svg" alt="C">
+            <span>C</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/html5.svg" alt="HTML5">
+            <span>HTML</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/css3.svg" alt="CSS3">
+            <span>CSS</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/javascript.svg" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-card-title">Tools & Platforms</h3>
+        <div class="skill-card-items">
+          <div class="skill-item">
+            <img src="assets/icons/git.svg" alt="Git">
+            <span>Git</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/github.svg" alt="GitHub">
+            <span>GitHub</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/vscode.svg" alt="VS Code">
+            <span>VS Code</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/zed.svg" alt="Zed">
+            <span>Zed</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/linux.svg" alt="Linux">
+            <span>Linux</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/azure.svg" alt="Azure">
+            <span>Azure</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/vercel.svg" alt="Vercel">
+            <span>Vercel</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/netlify.svg" alt="Netlify">
+            <span>Netlify</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/supabase.svg" alt="Supabase">
+            <span>Supabase</span>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icons/brevo.svg" alt="Brevo">
+            <span>Brevo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-card-title">Fundamentals</h3>
+        <div class="skill-card-items">
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><line x1="8" y1="8" x2="10" y2="16"/><line x1="16" y1="8" x2="14" y2="16"/><circle cx="12" cy="18" r="1.2" fill="currentColor"/></svg>
+            <span>Data Structures</span>
+          </div>
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 18 9 9 13 14 20 5"/><polyline points="15 5 20 5 20 10"/></svg>
+            <span>Algorithms</span>
+          </div>
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/></svg>
+            <span>File I/O & CRUD</span>
+          </div>
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="8" rx="1.5"/><rect x="3" y="13" width="18" height="8" rx="1.5"/><circle cx="7" cy="7" r=".8" fill="currentColor"/><circle cx="7" cy="17" r=".8" fill="currentColor"/></svg>
+            <span>Networking Basics</span>
+          </div>
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>
+            <span>Modular Programming</span>
+          </div>
+          <div class="skill-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="4" y1="10" x2="20" y2="10"/><line x1="4" y1="14" x2="20" y2="14"/><line x1="10" y1="4" x2="10" y2="20"/><line x1="14" y1="4" x2="14" y2="20"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
+            <span>Memory & Pointers</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ JOURNEY — TIMELINE ═══ -->
+<section id="journey">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">05 — journey</div>
+      <h2 class="section-title">How I got here</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="timeline fade-in">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2024</div>
+        <h3 class="timeline-title">Started CS — properly</h3>
+        <p class="timeline-desc">Enrolled in B.Tech CSE at Techno India University, West Bengal. C was the first language that made things click — memory, pointers, control flow.</p>
+        <div class="timeline-tags">
+          <span class="tag">C</span><span class="tag">fundamentals</span><span class="tag">data structures</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Early 2025</div>
+        <h3 class="timeline-title">Started learning in public</h3>
+        <p class="timeline-desc">Stopped keeping everything local. Started documenting what I build, break, and learn on LinkedIn and X. Based in Kolkata, building in public from day one.</p>
+        <div class="timeline-tags">
+          <span class="tag">LinkedIn</span><span class="tag">X / Twitter</span><span class="tag">public learning</span><span class="tag">Kolkata</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Mid 2025</div>
+        <h3 class="timeline-title">Built RentDB — first real-world tool</h3>
+        <p class="timeline-desc">Built a CLI rent management system in C to solve an actual problem. Learned file handling, CSV export, Makefile builds, and Linux filesystem quirks the hard way.</p>
+        <div class="timeline-tags">
+          <span class="tag">C</span><span class="tag">Linux</span><span class="tag">CLI</span><span class="tag">Makefile</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Late 2025</div>
+        <h3 class="timeline-title">Found bug bounty & web security</h3>
+        <p class="timeline-desc">Started reading HackerOne reports. Learned how web applications work before trying to break them. Switched to Caido for traffic interception and analysis.</p>
+        <div class="timeline-tags">
+          <span class="tag">web security</span><span class="tag">Caido</span><span class="tag">XSS</span><span class="tag">IDOR</span>
+        </div>
+      </div>
+
+      <div class="timeline-item active">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Now</div>
+        <h3 class="timeline-title">Building in public, looking for what's next</h3>
+        <p class="timeline-desc">Learning JavaScript deeply, working through C DSA, exploring GSoC, and doing bug bounty research on the side. Open to internships, collaborations, or anything real.</p>
+        <div class="timeline-tags">
+          <span class="tag" style="border-color:rgba(200,255,0,.2);color:#8ab300">available</span>
+          <span class="tag">JavaScript</span><span class="tag">C</span><span class="tag">GSoC</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WRITING — MEDIUM ═══ -->
+<section id="writing">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">06 — writing</div>
+      <h2 class="section-title">Writing in public</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="fade-in">
+      <p style="color:var(--text-2);font-size:1rem;font-weight:300;max-width:600px;margin-bottom:2rem;line-height:1.85;">
+        I write about what I learn — C internals, Linux, and building things as a student. No fluff. Just what I actually figured out.
+      </p>
+      <a href="https://medium.com/@roshanmallick2025" target="_blank" class="contact-link" style="width:fit-content;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h5"/></svg>
+        Read on Medium — @roshanmallick2025 ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">07 — contact</div>
+      <h2 class="section-title">Let's talk</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="contact-inner fade-in">
+      <p>If you're working on something interesting, want to discuss security research, or just want to connect — I'm reachable.</p>
+      <div class="contact-links">
+        <a href="https://github.com/Roshan-Mallick" target="_blank" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/roshan-mallick-2b816a2b8/" target="_blank" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://x.com/_eth0x1" target="_blank" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          X / Twitter
+        </a>
+        <a href="mailto:roshanmallick2025@gmail.com" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+      </div>
+      <p class="email-raw">or directly at <a href="mailto:roshanmallick2025@gmail.com">roshanmallick2025@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Built by Roshan Mallick · 2026 · <a href="https://github.com/Roshan-Mallick" target="_blank">Roshan-Mallick</a></p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+(function(){
+  const USER="Roshan-Mallick";
+  const PALETTE=["#161b22","#0e4429","#006d32","#26a641","#39d353"];
+  const CELL=11,GAP=3,STEP=CELL+GAP;
+
+  function level(n){return n===0?0:n<=4?1:n<=9?2:n<=19?3:4}
+
+  function parseDays(html){
+    const doc=new DOMParser().parseFromString(html,"text/html");
+    const cells=doc.querySelectorAll("td.ContributionCalendar-day");
+    const days=[];
+    cells.forEach(td=>{
+      const date=td.getAttribute("data-date");
+      if(!date)return;
+      const tipId=td.getAttribute("id");
+      let tip="";
+      if(tipId){const t=doc.querySelector('tool-tip[for="'+tipId+'"]');if(t)tip=t.textContent}
+      const m=tip.match(/(\d+)/);
+      days.push({date,count:m?parseInt(m[1]):0});
+    });
+    days.sort((a,b)=>a.date.localeCompare(b.date));
+    return days;
+  }
+
+  function computeStats(days){
+    const total=days.reduce((s,d)=>s+d.count,0);
+    let best={date:"",count:0};
+    days.forEach(d=>{if(d.count>best.count)best=d});
+    let cur=0,curStart=null,longest=0,lStart=null,lEnd=null;
+    for(let i=days.length-1;i>=0;i--){
+      if(days[i].count>0){if(!curStart)curStart=days[i].date;cur++}
+      else if(curStart)break;
+    }
+    let run=0,rs=null;
+    days.forEach(d=>{
+      if(d.count>0){if(!rs)rs=d.date;run++;if(run>longest){longest=run;lStart=rs;lEnd=d.date}}
+      else{run=0;rs=null}
+    });
+    return{total,bestDay:best,bestCount:best.count,curStreak:cur,longStreak:longest};
+  }
+
+  function renderStats(s){
+    return '<div class="gh-stats-row">'
+      +'<div class="gh-stat"><div class="gh-stat-val">'+s.total.toLocaleString()+'</div><div class="gh-stat-label">Contributions (1 year)</div></div>'
+      +'<div class="gh-stat"><div class="gh-stat-val">'+s.curStreak+'</div><div class="gh-stat-label">Current Streak</div></div>'
+      +'<div class="gh-stat"><div class="gh-stat-val">'+s.longStreak+'</div><div class="gh-stat-label">Longest Streak</div></div>'
+      +'<div class="gh-stat"><div class="gh-stat-val">'+s.bestCount+'</div><div class="gh-stat-label">Best Day ('+s.bestDay.date+')</div></div>'
+      +'</div>';
+  }
+
+  function renderHeatmap(days){
+    const first=new Date(days[0].date+"T00:00:00");
+    const leadPad=(first.getDay()+7-0)%7;
+    const cols=[];
+    let col=new Array(leadPad).fill(null);
+    days.forEach(d=>{
+      const dt=new Date(d.date+"T00:00:00");
+      const wd=dt.getDay();
+      while(col.length<wd)col.push(null);
+      col.push({date:d.date,count:d.count,lvl:level(d.count)});
+      if(col.length===7){cols.push(col);col=[]}
+    });
+    if(col.length){while(col.length<7)col.push(null);cols.push(col)}
+
+    const months=[];
+    const seen=new Set();
+    cols.forEach((c,ci)=>{
+      for(const cell of c){
+        if(!cell)continue;
+        const dt=new Date(cell.date+"T00:00:00");
+        const key=dt.getFullYear()+"-"+dt.getMonth();
+        if(!seen.has(key)&&dt.getDate()<=7){seen.add(key);months.push({ci,name:dt.toLocaleString("en",{month:"short"})})}
+        break;
+      }
+    });
+
+    const gridW=cols.length*STEP;
+    const gridH=7*STEP;
+    const padL=30,padT=20,pad=16;
+    const w=pad+padL+gridW+pad;
+    const h=padT+gridH+pad+10;
+
+    let svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 '+w+' '+h+'" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">';
+    svg+='<defs><style>@keyframes cellFade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}.c{opacity:0;animation:cellFade .35s ease both}</style></defs>';
+
+    months.forEach(m=>{
+      const x=pad+padL+m.ci*STEP;
+      svg+='<text x="'+x+'" y="'+(padT-4)+'" fill="#8b949e" font-size="9">'+m.name+'</text>';
+    });
+
+    [1,3,5].forEach(i=>{
+      const names=["Mon","Wed","Fri"];
+      const y=padT+i*STEP+CELL*.8;
+      svg+='<text x="'+(pad-2)+'" y="'+y+'" fill="#8b949e" font-size="8" text-anchor="end">'+names[[1,3,5].indexOf(i)]+'</text>';
+    });
+
+    cols.forEach((col,ci)=>{
+      col.forEach((cell,ri)=>{
+        if(!cell)return;
+        const x=pad+padL+ci*STEP;
+        const y=padT+ri*STEP;
+        const delay=(ci*0.015+ri*0.04).toFixed(3);
+        const plural=cell.count!==1?"s":"";
+        svg+='<rect class="c" x="'+x+'" y="'+y+'" width="'+CELL+'" height="'+CELL+'" rx="2" fill="'+PALETTE[cell.lvl]+'" style="animation-delay:'+delay+'s"><title>'+cell.date+': '+cell.count+' contribution'+plural+'</title></rect>';
+      });
+    });
+
+    const ly=padT+gridH+6;
+    const legParts=['<text x="'+(pad+padL)+'" y="'+(ly+9)+'" fill="#8b949e" font-size="9">Less</text>'];
+    let lx=pad+padL+30;
+    PALETTE.forEach(c=>{legParts.push('<rect x="'+lx+'" y="'+ly+'" width="'+(CELL-1)+'" height="'+(CELL-1)+'" rx="2" fill="'+c+'"/>');lx+=CELL});
+    legParts.push('<text x="'+(lx+4)+'" y="'+(ly+9)+'" fill="#8b949e" font-size="9">More</text>');
+    svg+=legParts.join("");
+    svg+="</svg>";
+    return svg;
+  }
+
+  const proxies=[
+    "https://corsproxy.io/?url=",
+    "https://api.allorigins.win/raw?url=",
+    "https://cors-anywhere.herokuapp.com/"
+  ];
+  const target="https://github.com/users/"+USER+"/contributions";
+
+  const graphEl=document.getElementById("github-heatmap");
+  const statsEl=document.getElementById("github-stats");
+  graphEl.innerHTML='<div class="gh-loading">Fetching contributions…</div>';
+
+  function tryProxy(i){
+    if(i>=proxies.length){
+      graphEl.innerHTML='<div class="gh-loading">Could not load contribution data.</div>';
+      return;
+    }
+    fetch(proxies[i]+encodeURIComponent(target))
+      .then(r=>{if(!r.ok)throw new Error(r.status);return r.text()})
+      .then(html=>{
+        const days=parseDays(html);
+        if(!days.length)throw new Error("no data");
+        const stats=computeStats(days);
+        statsEl.innerHTML=renderStats(stats);
+        graphEl.innerHTML=renderHeatmap(days);
+      })
+      .catch(()=>tryProxy(i+1));
+  }
+  tryProxy(0);
+})();
+</script>
+</body>
+</html>
