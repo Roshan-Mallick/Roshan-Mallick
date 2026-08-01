@@ -1,0 +1,39 @@
+name: update-profile-art
+
+on:
+  schedule:
+    # 05:17 UTC daily — GitHub contribution data is last-committed at ~05:00 UTC
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch contribution data
+        run: python3 scripts/fetch_contributions.py
+
+      - name: Render heatmap SVG
+        run: python3 scripts/render_heatmap_svg.py
+
+      - name: Auto-commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: refresh contribution stats + heatmap"
+          git push
